@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>BG Portfolio</title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png"
+        type="image/x-icon">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="container">
+        <i class="ri-moon-line theme" id="theme-btn"></i>
+        <div class="grid">
+            <div class="data">
+                <div class="border">
+                    <div class="image-container">
+                        <img src="./img/bartosz_gicala.jpg"
+                            alt="zdjęcie Bartosza Gicali">
+                    </div>
+                </div>
+                <h2 class="name">Bartosz Gicala</h2>
+                <h3 class="job">Junior Frontend Developer</h3>
+                <ul class="social-media">
+                    <a href="https://github.com/bartoszGic" target="_blank"><i
+                            class="ri-github-line"></i></a>
+                    <a href="https://www.linkedin.com/in/bartosz-gicala-045736198/"
+                        target="_blank"><i class="ri-linkedin-box-line"></i></a>
+                </ul>
+            </div>
+
+            <div class="about">
+                <div>
+                    <h3>O mnie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempore, ducimus! Debitis error eum ex a doloribus.
+                        Cumque earum nihil quia perspiciatis esse fuga fugit
+                        harum in vel hic nobis alias velit assumenda dolorem
+                        consequatur, ex magni iusto est laborum ipsa.
+                        Voluptates, nesciunt exercitationem? Aliquid eius nisi
+                        odit, reprehenderit ipsum facilis.</p>
+                </div>
+            </div>
+
+            <div class="cv">
+                <a download="" href="" class="button">Pobierz CV<i
+                        class="ri-file-download-line"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="filters container">
+
+            <ul class="content">
+                <button class="filter-button filter-btn-active"
+                    data-target="#projects">Projekty</button>
+                <button class="filter-button"
+                    data-target="#skills">Umiejętności</button>
+            </ul>
+
+            <div class="filters-sections">
+                <div class="projects grid filters-active" data-content
+                    id="projects">
+
+                    <article class="card">
+                        <img src="./img/gichat.PNG"
+                            alt="zdjęcie aplikacji gichat" class="project-img">
+                        <div class="modal">
+                            <div class="modal-container">
+                                <div>
+                                    <span class="subtitle">Czat</span>
+                                    <h3 class="title">GiChat</h3>
+                                </div>
+                                <p class="description">Aplikacja
+                                    wykorzystująca React, Redux, TypeScript,
+                                    Nextjs, Firebase oraz Tailwind CSS.
+                                    Umożliwia
+                                    użytkownikom prowadzenie rozmów z
+                                    przyjaciółmi oraz tworzenie grup
+                                    dyskusyjnych. Użytkownicy otrzymują
+                                    powiadomienia o nowych
+                                    wiadomościach oraz potwierdzenia odczytu.
+                                </p>
+                                <div class="links-container">
+                                    <a href="https://github.com/bartoszGic/GiChat"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-link"></i></a>
+                                    <a href="https://gi-chat-two.vercel.app/"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-live-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./img/herbsreact.PNG"
+                            alt="zdjęcie aplikacji herbsreact"
+                            class="project-img">
+                        <div class="modal">
+                            <div class="modal-container">
+                                <div>
+                                    <span class="subtitle">E-commerce</span>
+                                    <h3 class="title">HerbsReact</h3>
+                                </div>
+                                <p class="description">Strona działająca na
+                                    React, Redux, TypeScript, Tailwind CSS oraz
+                                    Firebase. Umożliwia użytkownikom
+                                    przeglądanie produktów, dodawanie ich do
+                                    koszyka i ulubionych, a także pisanie
+                                    komentarzy. Wszystko
+                                    przypisane do konta użytkownika. Firebase
+                                    obsługuje autoryzację oraz bazę danych.
+                                </p>
+                                <div class="links-container">
+                                    <a href="https://github.com/bartoszGic/HerbsReact"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-link"></i></a>
+                                    <a href="https://bartoszgic.github.io/HerbsReact/"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-live-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./img/inflapp.PNG"
+                            alt="zdjęcie aplikacji inflapp" class="project-img">
+                        <div class="modal">
+                            <div class="modal-container">
+                                <div>
+                                    <span class="subtitle">Planner</span>
+                                    <h3 class="title">InflApp</h3>
+                                </div>
+                                <p class="description">Pierwsza samodzielnie
+                                    stworzona aplikcja do liczenia wzrostu cen
+                                    produktów w sklepie, używająca JavaScript i
+                                    SCSS. Pozwala użytkownikom wprowadzać
+                                    pierwotną i aktualną cenę produktu, a
+                                    następnie oblicza procentowy wzrost ceny.
+                                </p>
+                                <div class="links-container">
+                                    <a href="https://github.com/bartoszGic/InflaApp"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-link"></i></a>
+                                    <a href="https://bartoszgic.github.io/InflaApp/"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-live-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./img/msdent.PNG" alt="zdjęcie strony msdent"
+                            class="project-img">
+                        <div class="modal">
+                            <div class="modal-container">
+                                <div>
+                                    <span class="subtitle">Website</span>
+                                    <h3 class="title">MSDent</h3>
+                                </div>
+                                <p class="description">Strona internetowa
+                                    gabinetu denstystycznego z kilkoma
+                                    podstronami działająca w
+                                    Nextjs. Ostylowana za
+                                    pomocą Tailwind.
+                                </p>
+                                <div class="links-container">
+                                    <a href="https://github.com/bartoszGic/MSDent"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-link"></i></a>
+                                    <a href="https://ms-dent-yqqo.vercel.app/"
+                                        class="button card-button button-small"
+                                        target="_blank"><i
+                                            class="ri-live-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="skills" data-content id="skills">
+                    <div class="area">
+                        <h3 class="skills-title">Umiejętności</h3>
+                        <div class="box">
+                            <div class="group">
+                                <div class="data">
+                                    <i class="ri-html5-line"></i>
+                                    <h3 class="name">HTML</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-css3-line"></i>
+                                    <h3 class="name">CSS/SCSS</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-javascript-line"></i>
+                                    <h3 class="name">JavaScript/TypeScript</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-reactjs-fill"></i>
+                                    <h3 class="name">React</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-nextjs-line"></i>
+                                    <h3 class="name">Next.js</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-tailwind-css-line"></i>
+                                    <h3 class="name">Tailwind</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-firebase-line"></i>
+                                    <h3 class="name">Firebase</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="rights">&#169; Bartosz Gicala</span>
+    </footer>
+    <script src="./scrollreveal.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
