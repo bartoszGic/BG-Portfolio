@@ -256,7 +256,7 @@ main {
 				.modal-container {
 					display: flex;
 					flex-direction: column;
-					justify-content: space-between;
+					justify-content: center;
 					height: 100%;
 					div {
 						.subtitle,
@@ -275,6 +275,7 @@ main {
 					.description {
 						font-size: var(--smaller-fs);
 						color: #fff;
+						margin-bottom: 1rem;
 					}
 					.links-container {
 						.card-button {

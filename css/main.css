@@ -283,9 +283,9 @@ main .projects .card .modal .modal-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
 }
 main .projects .card .modal .modal-container div .subtitle,
@@ -302,6 +302,7 @@ main .projects .card .modal .modal-container div .title {
 main .projects .card .modal .modal-container .description {
   font-size: var(--smaller-fs);
   color: #fff;
+  margin-bottom: 1rem;
 }
 main .projects .card .modal .modal-container .links-container .card-button {
   margin-right: 0.75rem;
