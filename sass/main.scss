@@ -166,9 +166,9 @@ header {
 		.social-media {
 			display: flex;
 			justify-content: center;
-			column-gap: 0.75rem;
+			column-gap: 1rem;
 			a {
-				font-size: 1.25rem;
+				font-size: 1.5rem;
 				color: var(--title-color);
 				transition: 0.3s;
 			}
@@ -438,7 +438,7 @@ main {
 			}
 			.social-media {
 				a {
-					font-size: 1.5rem;
+					font-size: 2rem;
 				}
 			}
 		}
