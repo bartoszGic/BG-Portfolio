@@ -1,5 +1,8 @@
 const filters = document.querySelectorAll('[data-target]')
 const filtersContents = document.querySelectorAll('[data-content]')
+const overlayBg = document.getElementById('overlay-bg')
+const imageBorder = document.getElementById('image-border')
+const profileImage = document.getElementById('profile-image')
 
 const sr = ScrollReveal({
     origin: 'top',
@@ -53,5 +56,20 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-
-
+imageBorder.addEventListener('click', () => {
+    if (overlayBg.classList.contains('active')) {
+        overlayBg.classList.remove('active');
+        imageBorder.classList.remove('expanded');
+    } else {
+        overlayBg.classList.add('active');
+        imageBorder.classList.add('expanded');
+    }
+});
+overlayBg.addEventListener('click', () => {
+    overlayBg.classList.remove('active');
+    imageBorder.classList.remove('expanded');
+});
+window.addEventListener('scroll', () => {
+    overlayBg.classList.remove('active');
+    imageBorder.classList.remove('expanded');
+});

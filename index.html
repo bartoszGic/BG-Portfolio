@@ -12,18 +12,21 @@
     <link
         href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
         rel="stylesheet" />
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+
     <header class="container">
         <i class="ri-moon-line theme" id="theme-btn"></i>
         <div class="grid">
             <div class="data">
-                <div class="border">
+                <div class="border" id="image-border">
                     <div class="image-container">
                         <img src="./img/bartosz_gicala.jpg"
-                            alt="zdjęcie Bartosza Gicali">
+                            alt="zdjęcie Bartosza Gicali" id="profile-image">
                     </div>
                 </div>
                 <h2 class="name">Bartosz Gicala</h2>
@@ -39,23 +42,40 @@
             <div class="about">
                 <div>
                     <h3>O mnie</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Tempore, ducimus! Debitis error eum ex a doloribus.
-                        Cumque earum nihil quia perspiciatis esse fuga fugit
-                        harum in vel hic nobis alias velit assumenda dolorem
-                        consequatur, ex magni iusto est laborum ipsa.
-                        Voluptates, nesciunt exercitationem? Aliquid eius nisi
-                        odit, reprehenderit ipsum facilis.</p>
+                    <p>Programowania zacząłem się uczyć w 2021 roku, kiedy
+                        po pracy zamiast usiąść do grania na komputerze zacząłem
+                        pisać na nim kod. Od tamtej pory stało się to moim
+                        sposobem spędzania wolnego czasu
+                        i pomimo
+                        licznych chwil zwątpienia po drodze, idę dalej w
+                        kierunku
+                        realizacji swoich celów w tej dziedzinie.
+                        <br><br>
+                        Jestem spokojnym, ceniącym ciszę ale i lubiącym żartować
+                        człowiekiem. Czytam książki, uprawiam sport i chodzę po
+                        górach. W pracy jestem sumienny i odpowiedzialny – można
+                        na mnie polegać, nigdy nie przerzucam swoich obowiązków
+                        na innych i z każdym potrafię się dogadać.
+                        Zawsze szukam rozwiązania problemów, które napotykam i
+                        nie uciekam od nich. Lubię wyzwania, bo wiem że przy
+                        okazji uczę się i nabywam doświadczenie.
+                        <br><br>
+                        Myślę że już czas żeby moje hobby stało się sposobem na
+                        utrzymanie a swoją przyszłość chcę związać z
+                        programowaniem wykorzystując zdobyte umiejętności w
+                        realnych projektach. Z moim zaangażowaniem i
+                        wytrwałością napewno to osiągnę.
+                    </p>
                 </div>
             </div>
-
             <div class="cv">
                 <a download="" href="" class="button">Pobierz CV<i
                         class="ri-file-download-line"></i></a>
             </div>
-
         </div>
     </header>
+
+    <div class="bg" id="overlay-bg"></div>
 
     <main>
         <section class="filters container">
@@ -201,32 +221,46 @@
                         <div class="box">
                             <div class="group">
                                 <div class="data">
-                                    <i class="ri-html5-line"></i>
+                                    <i class="ri-check-line"></i>
                                     <h3 class="name">HTML</h3>
                                 </div>
                                 <div class="data">
-                                    <i class="ri-css3-line"></i>
-                                    <h3 class="name">CSS/SCSS</h3>
+                                    <i class="ri-check-line"></i>
+                                    <h3 class="name">CSS</h3>
                                 </div>
                                 <div class="data">
-                                    <i class="ri-javascript-line"></i>
-                                    <h3 class="name">JavaScript/TypeScript</h3>
+                                    <i class="ri-check-line"></i>
+                                    <h3 class="name">SCSS</h3>
                                 </div>
                                 <div class="data">
-                                    <i class="ri-reactjs-fill"></i>
+                                    <i class="ri-check-line"></i>
+                                    <h3 class="name">JavaScript
+                                    </h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-check-line"></i>
+                                    <h3 class="name">TypeScript
+                                    </h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-check-line"></i>
                                     <h3 class="name">React</h3>
                                 </div>
                                 <div class="data">
-                                    <i class="ri-nextjs-line"></i>
+                                    <i class="ri-check-line"></i>
                                     <h3 class="name">Next.js</h3>
                                 </div>
                                 <div class="data">
-                                    <i class="ri-tailwind-css-line"></i>
+                                    <i class="ri-check-line"></i>
                                     <h3 class="name">Tailwind</h3>
                                 </div>
                                 <div class="data">
-                                    <i class="ri-firebase-line"></i>
+                                    <i class="ri-check-line"></i>
                                     <h3 class="name">Firebase</h3>
+                                </div>
+                                <div class="data">
+                                    <i class="ri-check-line"></i>
+                                    <h3 class="name">Git</h3>
                                 </div>
                             </div>
                         </div>
