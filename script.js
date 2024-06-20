@@ -3,14 +3,15 @@ const filtersContents = document.querySelectorAll('[data-content]')
 const overlayBg = document.getElementById('overlay-bg')
 const imageBorder = document.getElementById('image-border')
 const profileImage = document.getElementById('profile-image')
+const rightsElement = document.querySelector('.rights');
 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '30px',
+    distance: '15px',
     duration: 3000,
     delay: 200,
 })
-sr.reveal('.border')
+sr.reveal('.data')
 sr.reveal('.name', { delay: 350 })
 sr.reveal('.job', { delay: 400 })
 sr.reveal('.social-media', { delay: 450 })
@@ -72,4 +73,10 @@ overlayBg.addEventListener('click', () => {
 window.addEventListener('scroll', () => {
     overlayBg.classList.remove('active');
     imageBorder.classList.remove('expanded');
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const currentYear = new Date().getFullYear();
+    if (rightsElement) {
+        rightsElement.textContent = `© ${currentYear} Bartosz Gicala`;
+    }
 });
