@@ -8,17 +8,17 @@ const rightsElement = document.querySelector('.rights');
 const sr = ScrollReveal({
     origin: 'top',
     distance: '15px',
-    duration: 3000,
+    duration: 2000,
     delay: 200,
 })
 sr.reveal('.data')
-sr.reveal('.name', { delay: 350 })
-sr.reveal('.job', { delay: 400 })
-sr.reveal('.social-media', { delay: 450 })
-sr.reveal('.about', { delay: 500 })
-sr.reveal('.cv', { delay: 550 })
-sr.reveal('.content', { delay: 600 })
-sr.reveal('.filters-sections', { delay: 650 })
+sr.reveal('.name', { delay: 400 })
+sr.reveal('.job', { delay: 500 })
+sr.reveal('.social-media', { delay: 600 })
+sr.reveal('.cv', { delay: 700 })
+sr.reveal('.about', { delay: 800 })
+sr.reveal('.content', { delay: 900 })
+sr.reveal('.filters-sections', { delay: 1000 })
 
 filters.forEach(filter => {
     filter.addEventListener('click', () => {
