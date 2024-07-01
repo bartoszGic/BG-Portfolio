@@ -470,6 +470,11 @@ main {
 	}
 }
 @media screen and (min-width: 992px) {
+	.bg {
+		&.active {
+			display: none;
+		}
+	}
 	header {
 		padding-top: 4rem;
 		.data {
